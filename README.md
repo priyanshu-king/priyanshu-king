@@ -8,9 +8,9 @@
 
    <img align="right" alt="Coding" width="300" height="280"   src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-- 🔭 I’m currently working on [Portfolio](https://priyanshubharti.vercel.app)
+- 🔭 I’m currently working on [Portfolio](https://priyanshubh.vercel.app)
 
-- 🌱 I’m currently learning **Prisma**
+- 🌱 I’m currently learning **GenAI**
 
 - 📫 How to reach me **hi.priyanshubharti@gmail.com**
 
@@ -30,7 +30,7 @@
   <a href="https://linkedin.com/in/priyanshu-bharti" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-  <a href="https://priyanshubharti.vercel.app/" target="_blank">
+  <a href="https://priyanshubh.vercel.app/" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a>
 </p>
