@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Priyanshu Nagiya - Full Stack Developer building AI-driven prediction systems, real-time communication solutions, and modern web experiences."
+      content="Meet Priyanshu Nagiya, an AI and data science enthusiast, ML developer, published author, and content creator building practical digital products."
     />
     <title>Priyanshu Nagiya | Portfolio</title>
+    <meta name="theme-color" content="#07111f" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://priyanshu-nagiya-portfolio.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Priyanshu Nagiya | AI, Data Science & Development" />
+    <meta property="og:description" content="AI and data science enthusiast, ML developer, published author, and content creator building practical digital products." />
+    <meta property="og:url" content="https://priyanshu-nagiya-portfolio.vercel.app/" />
+    <meta property="og:image" content="https://priyanshu-nagiya-portfolio.vercel.app/priyanshu-nagiya-profile.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Priyanshu Nagiya | AI, Data Science & Development" />
+    <meta name="twitter:description" content="AI and data science enthusiast, ML developer, published author, and content creator building practical digital products." />
+    <meta name="twitter:image" content="https://priyanshu-nagiya-portfolio.vercel.app/priyanshu-nagiya-profile.jpeg" />
+    <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,149 +32,253 @@
   <body>
     <header class="site-header">
       <nav class="nav container">
-        <div class="brand">Priyanshu<span>.</span></div>
+        <a class="brand" href="#top" aria-label="Priyanshu Nagiya, home">
+          <img src="logo.svg" alt="" width="42" height="42" />
+          <span>PN<span class="brand-dot">.</span></span>
+        </a>
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
+          <a href="#creative-work">Writing</a>
           <a href="#skills">Skills</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#resume">Resume</a>
           <a href="#contact">Contact</a>
         </div>
-        <a class="btn btn-primary" href="#contact">Hire Me</a>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42" /></svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.9 13A8.5 8.5 0 0 1 11 3.1 8.5 8.5 0 1 0 20.9 13Z" /></svg>
+          </button>
+          <a class="btn btn-primary nav-cta" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+        </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero container">
+      <section class="hero container" id="top">
         <div class="hero-copy">
-          <p class="eyebrow">Full Stack Developer</p>
+          <p class="eyebrow"><span class="status-dot"></span> Developer · ML Enthusiast <span class="eyebrow-divider">/</span> India</p>
           <h1>
-            Hi, I'm <span>Priyanshu Nagiya</span><br />
-            Building smarter digital products.
+            I turn <span class="gradient-text">complex</span><br />
+            ideas into useful products.
           </h1>
           <p class="subtitle">
-            I design and build modern web experiences with a focus on AI-driven systems,
-            scalable architecture, and practical user-first solutions.
+            I'm Priyanshu Nagiya. I build thoughtful web experiences and explore how AI can
+            make prediction, communication, and everyday decisions a little smarter. Outside of tech,
+            I’m a published author and an emerging content creator.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://github.com/priyanshu-king" target="_blank" rel="noreferrer">GitHub</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/priyanshu-nagiya-928275273/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-secondary" href="Priyanshu-Nagiya-Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
           </div>
 
-          <ul class="quick-stats">
-            <li><strong>3+</strong><span>Core project areas</span></li>
-            <li><strong>AI</strong><span>Predictive systems</span></li>
-            <li><strong>Web</strong><span>Modern product builds</span></li>
-          </ul>
+          <div class="hero-note"><span class="note-line"></span> Curious by nature. Intentional by design.</div>
         </div>
 
-        <div class="hero-visual" aria-label="Portfolio preview card">
-          <div class="glass-card profile-card">
-            <div class="badge">Available for work</div>
-            <div class="profile-circle">PN</div>
-            <h3>Priyanshu Nagiya</h3>
-            <p>Full Stack Developer</p>
-            <div class="mini-metrics">
-              <div>
-                <span>Focus</span>
-                <strong>AI + Web</strong>
-              </div>
-              <div>
-                <span>Location</span>
-                <strong>India</strong>
-              </div>
+        <div class="hero-visual" aria-label="Portrait of Priyanshu Nagiya">
+          <div class="portrait-frame">
+            <div class="portrait-image-wrap">
+              <img
+                class="profile-photo"
+                src="priyanshu-nagiya-profile.jpeg"
+                alt="Priyanshu Nagiya wearing a dark suit"
+                width="400"
+                height="400"
+                fetchpriority="high"
+              />
             </div>
+            <div class="portrait-caption"><span class="portrait-status"></span> PRIYANSHU NAGIYA <span>·</span> BUILDER OF IDEAS</div>
           </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="floating-chip chip-ai"><span class="chip-dot violet"></span> ML & AI</div>
+          <div class="floating-chip chip-build"><span class="chip-dot cyan"></span> Author · Creator</div>
+          <div class="visual-caption"><span>01</span><span>IDEAS IN MOTION</span></div>
         </div>
       </section>
 
+      <div class="marquee" aria-label="What I like to build">
+        <div class="marquee-track" aria-hidden="true">
+          <span>AI & prediction</span><i></i><span>Thoughtful interfaces</span><i></i><span>Useful technology</span><i></i><span>AI & prediction</span><i></i><span>Thoughtful interfaces</span><i></i><span>Useful technology</span><i></i>
+        </div>
+      </div>
+
       <section id="about" class="section container">
         <div class="section-heading">
-          <p class="eyebrow">About Me</p>
-          <h2>Developer with a product mindset.</h2>
+          <p class="eyebrow">A little about me <span>01 / 07</span></p>
+          <h2>Not just code.<br /><span class="heading-muted">A reason to build.</span></h2>
         </div>
 
         <div class="about-grid">
-          <div class="about-card">
-            <p>
-              I’m a full-stack developer passionate about creating intelligent, scalable, and easy-to-use digital products.
-              My work combines clean frontend experiences with structured backend logic and data-driven problem solving.
+          <div class="about-story reveal">
+            <span class="story-mark">“</span>
+            <p class="story-lead">I’m drawn to the moment an interesting idea becomes something people can actually use.</p>
+            <p class="story-copy">
+              My projects sit at the intersection of full-stack development and practical problem-solving:
+              predicting startup potential, keeping people connected without internet, and making vehicle
+              decisions more informed. I care about how a product works under the hood and how it feels in someone's hands.
             </p>
-            <p>
-              I enjoy building systems that solve real-world problems — from AI-powered prediction platforms to seamless communication tools and vehicle forecasting solutions.
-            </p>
+            <div class="story-signature"><span class="signature-line"></span><span>Priyanshu Nagiya</span></div>
           </div>
-          <div class="about-highlights">
-            <div>
-              <span class="icon">⚡</span>
-              <div>
-                <h3>Fast Learner</h3>
-                <p>Adapt quickly to new tools, frameworks, and product needs.</p>
-              </div>
-            </div>
-            <div>
-              <span class="icon">🧠</span>
-              <div>
-                <h3>AI Focus</h3>
-                <p>Exploring predictive systems and data-driven product thinking.</p>
-              </div>
-            </div>
-            <div>
-              <span class="icon">🚀</span>
-              <div>
-                <h3>Delivery Mindset</h3>
-                <p>Committed to building useful products with measurable value.</p>
-              </div>
-            </div>
+          <div class="about-aside">
+            <article class="principle-card reveal">
+              <span class="principle-number">01</span>
+              <div><h3>Start with the why</h3><p>Understand the real problem before reaching for a solution.</p></div>
+              <span class="principle-symbol" aria-hidden="true">◎</span>
+            </article>
+            <article class="principle-card reveal">
+              <span class="principle-number">02</span>
+              <div><h3>Make it feel simple</h3><p>Thoughtful details turn complex technology into clear experiences.</p></div>
+              <span class="principle-symbol" aria-hidden="true">✳</span>
+            </article>
+            <article class="principle-card reveal">
+              <span class="principle-number">03</span>
+              <div><h3>Keep learning</h3><p>Explore new ideas, test assumptions, and keep improving the work.</p></div>
+              <span class="principle-symbol" aria-hidden="true">↗</span>
+            </article>
           </div>
         </div>
       </section>
 
       <section id="projects" class="section section-alt">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Featured Projects</p>
-            <h2>My work in AI, communication, and prediction.</h2>
+          <div class="section-heading projects-heading">
+            <div>
+              <p class="eyebrow">Selected explorations <span>02 / 07</span></p>
+              <h2>Ideas, made tangible.</h2>
+            </div>
+            <p class="section-intro">Three problem spaces I'm exploring through technology. Project links and implementation details coming soon.</p>
           </div>
 
           <div class="projects-grid">
-            <article class="project-card">
-              <div class="project-badge purple">AI</div>
-              <h3>AI Startup Prediction System</h3>
+            <article class="project-card project-startup tilt-card reveal">
+              <div class="project-topline"><span>01 — AI / ANALYTICS</span><span class="project-status">EXPLORATION</span></div>
+              <div class="project-art startup-art" aria-hidden="true">
+                <div class="chart-grid"></div>
+                <div class="chart-label">SIGNAL / 01</div>
+                <svg viewBox="0 0 320 160" role="presentation">
+                  <defs><linearGradient id="chartLine" x1="0" x2="1"><stop stop-color="#8c7cff" /><stop offset="1" stop-color="#6ee7f9" /></linearGradient></defs>
+                  <path class="chart-area" d="M12 135 C48 120 50 118 78 110 S118 104 137 82 S181 87 202 60 S242 65 258 38 S288 35 308 14 V160 H12Z" />
+                  <path class="chart-path" d="M12 135 C48 120 50 118 78 110 S118 104 137 82 S181 87 202 60 S242 65 258 38 S288 35 308 14" />
+                  <circle cx="258" cy="38" r="5" />
+                </svg>
+                <div class="chart-float">+ potential</div>
+              </div>
+              <div class="project-content">
+                <p class="project-kicker">Find the signal in the noise</p>
+                <h3>AI Startup<br />Prediction System</h3>
               <p>
-                A data-driven startup evaluation platform that applies intelligent prediction methods to uncover promising opportunities and business potential.
+                  Exploring data-driven ways to evaluate startup potential and surface useful insights for early-stage decisions.
               </p>
-              <ul>
-                <li>Predictive analysis</li>
-                <li>Business insight generation</li>
-                <li>Scalable AI workflow</li>
-              </ul>
+                <div class="project-tags"><span>AI / ML</span><span>Prediction</span><span>Analytics</span></div>
+              </div>
             </article>
 
-            <article class="project-card">
-              <div class="project-badge blue">Chat</div>
-              <h3>No Internet Chat App</h3>
+            <article class="project-card project-chat tilt-card reveal">
+              <div class="project-topline"><span>02 — CONNECTIVITY / MOBILE</span><span class="project-status">EXPLORATION</span></div>
+              <div class="project-art chat-art" aria-hidden="true">
+                <div class="signal-ring ring-one"></div><div class="signal-ring ring-two"></div>
+                <div class="phone-frame">
+                  <div class="phone-speaker"></div>
+                  <div class="message message-left">Still here.</div>
+                  <div class="message message-right">Always connected.</div>
+                  <div class="message message-left short-message">Even offline <span>✓</span></div>
+                  <div class="phone-status"><span></span> LOCAL NETWORK</div>
+                </div>
+                <span class="chat-spark spark-one">✳</span><span class="chat-spark spark-two">✦</span>
+              </div>
+              <div class="project-content">
+                <p class="project-kicker">Connection beyond the network</p>
+                <h3>No Internet<br />Chat App</h3>
               <p>
-                A lightweight communication system designed for offline or low-connectivity scenarios, focusing on usability and smooth message flow.
+                  Reimagining nearby communication for moments when internet access isn't available, with an offline-first approach.
               </p>
-              <ul>
-                <li>Offline-first UX</li>
-                <li>Simple, reliable messaging</li>
-                <li>Low bandwidth design</li>
-              </ul>
+                <div class="project-tags"><span>Offline-first</span><span>Messaging</span><span>Connectivity</span></div>
+              </div>
             </article>
 
-            <article class="project-card">
-              <div class="project-badge green">Predictive</div>
-              <h3>Vehicle Prediction System</h3>
+            <article class="project-card project-vehicle tilt-card reveal">
+              <div class="project-topline"><span>03 — MOBILITY / DATA</span><span class="project-status">EXPLORATION</span></div>
+              <div class="project-art vehicle-art" aria-hidden="true">
+                <div class="road-line"></div><div class="road-line road-line-two"></div>
+                <div class="vehicle-glow"></div>
+                <svg class="vehicle-svg" viewBox="0 0 360 170" role="presentation">
+                  <defs><linearGradient id="carPaint" x1="0" x2="1"><stop stop-color="#65e6c6" /><stop offset="1" stop-color="#79b9ff" /></linearGradient></defs>
+                  <path d="M42 105 66 98l22-40c5-9 13-14 24-16l87-10c17-2 31 4 42 17l33 40 29 8c10 3 16 11 16 21v13H36v-13c0-6 1-10 6-13Z" fill="url(#carPaint)" />
+                  <path d="m102 93 18-31c3-5 7-8 14-9l62-7c9-1 16 2 22 9l27 38Z" fill="#0d2131" />
+                  <circle cx="97" cy="133" r="19" fill="#101b2a" stroke="#a8fff0" stroke-width="5" /><circle cx="278" cy="133" r="19" fill="#101b2a" stroke="#a8fff0" stroke-width="5" />
+                  <path d="M49 109h30m224 0h25" stroke="#effffb" stroke-width="5" stroke-linecap="round" />
+                </svg>
+                <div class="vehicle-coordinate">PREDICTION<br />IN MOTION</div>
+              </div>
+              <div class="project-content">
+                <p class="project-kicker">A clearer view of the road ahead</p>
+                <h3>Vehicle<br />Prediction System</h3>
               <p>
-                A solution for forecasting vehicle-related patterns using intelligent models and analytical workflows for better business decisions.
+                  Applying prediction and analysis to vehicle-related data to help make informed, forward-looking decisions.
               </p>
-              <ul>
-                <li>Prediction modeling</li>
-                <li>Decision support</li>
-                <li>Smart data interpretation</li>
-              </ul>
+                <div class="project-tags"><span>Prediction</span><span>Mobility</span><span>Data</span></div>
+              </div>
+            </article>
+          </div>
+          <div class="projects-footnote"><span class="footnote-star">✳</span> These are evolving projects. More details and live demos will be added as they take shape.</div>
+        </div>
+      </section>
+
+      <section id="creative-work" class="section creative-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Beyond the build <span>03 / 07</span></p>
+            <h2>Different ways to<br /><span class="heading-muted">share an idea.</span></h2>
+          </div>
+          <div class="creative-grid">
+            <article class="creative-card book-card reveal">
+              <div class="creative-art book-art" aria-hidden="true">
+                <div class="book-shadow"></div>
+                <div class="book-object">
+                  <span class="book-monogram">PN</span>
+                  <span class="book-rule"></span>
+                  <span class="book-placeholder">A BOOK BY<br />PRIYANSHU NAGIYA</span>
+                </div>
+                <span class="art-index">01 / AUTHOR</span>
+              </div>
+              <div class="creative-copy">
+                <p class="project-kicker">Published author</p>
+                <h3>One book. A world of ideas.</h3>
+                <p>I’ve published a book, bringing my ideas to the page. It’s available to explore and purchase on Amazon.</p>
+                <a class="creative-link" href="https://amzn.in/d/29RzYGe" target="_blank" rel="noreferrer">
+                  <span>Find my book on Amazon</span><span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="creative-card creator-card reveal">
+              <div class="creative-art creator-art" aria-hidden="true">
+                <div class="creator-orbit creator-orbit-one"></div>
+                <div class="creator-orbit creator-orbit-two"></div>
+                <div class="creator-core"><span>IDEA</span><span>↗</span></div>
+                <span class="creator-word word-one">CREATE</span>
+                <span class="creator-word word-two">SHARE</span>
+                <span class="art-index">02 / CREATOR</span>
+              </div>
+              <div class="creative-copy">
+                <p class="project-kicker">Content creator</p>
+                <h3>Learning out loud.</h3>
+                <p>I also create content and share ideas alongside my tech journey. I’m growing this creative practice one useful piece at a time.</p>
+                <div class="creative-links">
+                  <a class="creative-link" href="https://www.instagram.com/pythonhub34__1/" target="_blank" rel="noreferrer">
+                    <span>Instagram</span><span aria-hidden="true">↗</span>
+                  </a>
+                  <a class="creative-link" href="https://youtube.com/@thegold146?si=MJkuO6o4BL13yHW8" target="_blank" rel="noreferrer">
+                    <span>YouTube</span><span aria-hidden="true">↗</span>
+                  </a>
+                  <a class="creative-link" href="https://x.com/Thekingprince5" target="_blank" rel="noreferrer">
+                    <span>X</span><span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
             </article>
           </div>
         </div>
@@ -169,35 +286,205 @@
 
       <section id="skills" class="section container">
         <div class="section-heading">
-          <p class="eyebrow">Skills</p>
-          <h2>Tools and technologies I work with.</h2>
+          <p class="eyebrow">The toolkit <span>04 / 07</span></p>
+          <h2>Tools for turning ideas<br /><span class="heading-muted">into working things.</span></h2>
         </div>
 
         <div class="skills-grid">
-          <div class="skill-card">
-            <h3>Frontend</h3>
-            <p>HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind</p>
+          <div class="skill-card reveal">
+            <h3>Programming</h3>
+            <p>Python, C++, Java</p>
           </div>
-          <div class="skill-card">
-            <h3>Backend</h3>
-            <p>Node.js, Express.js, REST APIs, authentication flows</p>
+          <div class="skill-card reveal">
+            <h3>Machine Learning</h3>
+            <p>Supervised and unsupervised learning, feature engineering, model evaluation</p>
           </div>
-          <div class="skill-card">
-            <h3>Data & AI</h3>
-            <p>Machine learning concepts, predictive modeling, AI workflows</p>
+          <div class="skill-card reveal">
+            <h3>ML & Computer Vision</h3>
+            <p>TensorFlow, Scikit-learn, OpenCV, NumPy, Pandas</p>
           </div>
-          <div class="skill-card">
-            <h3>Database</h3>
-            <p>MongoDB, PostgreSQL, Prisma, SQL-based application design</p>
+          <div class="skill-card reveal">
+            <h3>Data & Analytics</h3>
+            <p>Data cleaning, visualization, analysis, SQL</p>
           </div>
-          <div class="skill-card">
-            <h3>Development</h3>
-            <p>Git, GitHub, Vercel, deployment workflows, debugging</p>
+          <div class="skill-card reveal">
+            <h3>Development Tools</h3>
+            <p>Git, GitHub, Jupyter Notebook, VS Code</p>
           </div>
-          <div class="skill-card">
-            <h3>Product Thinking</h3>
-            <p>UI/UX reasoning, user-focused design, scalable architecture</p>
+          <div class="skill-card reveal">
+            <h3>Generative AI</h3>
+            <p>Generative AI fundamentals, applications, and ongoing exploration</p>
           </div>
+        </div>
+      </section>
+
+      <section id="certificates" class="section section-alt certificates-section">
+        <div class="container">
+          <div class="section-heading certificates-heading">
+            <div>
+              <p class="eyebrow">Proof of learning <span>05 / 07</span></p>
+              <h2>Learning, put<br /><span class="heading-muted">into practice.</span></h2>
+            </div>
+            <p class="section-intro">A selection of certificates and job simulations. Open any certificate to view the original.</p>
+          </div>
+
+          <div class="certificates-grid">
+            <article class="certificate-card reveal">
+              <a class="certificate-preview" href="Coursera-Introduction-to-Microsoft-Excel.jpg" target="_blank" rel="noreferrer" aria-label="Open Coursera Introduction to Microsoft Excel certificate">
+                <img src="Coursera-Introduction-to-Microsoft-Excel.jpg" alt="Coursera Project Network certificate for Introduction to Microsoft Excel, awarded to Priyanshu Nagiya on January 1, 2025" loading="lazy" />
+                <span class="certificate-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="certificate-copy">
+                <p class="project-kicker">Coursera Project Network · Jan 2025</p>
+                <h3>Introduction to Microsoft Excel</h3>
+                <a class="certificate-link" href="Coursera-Introduction-to-Microsoft-Excel.jpg" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="certificate-card reveal">
+              <a class="certificate-preview" href="LinkedIn-Generative-AI-Imaging-Tools.jpg" target="_blank" rel="noreferrer" aria-label="Open LinkedIn Learning Generative AI Imaging Tools for Developers certificate">
+                <img src="LinkedIn-Generative-AI-Imaging-Tools.jpg" alt="LinkedIn Learning certificate for Generative AI Imaging Tools for Developers, completed by Priyanshu Nagiya on December 31, 2024" loading="lazy" />
+                <span class="certificate-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="certificate-copy">
+                <p class="project-kicker">LinkedIn Learning · Dec 2024</p>
+                <h3>Generative AI Imaging Tools for Developers</h3>
+                <a class="certificate-link" href="LinkedIn-Generative-AI-Imaging-Tools.jpg" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="certificate-card reveal">
+              <a class="certificate-preview" href="Cryptch-Programming-Certificate.jpg" target="_blank" rel="noreferrer" aria-label="Open Cryptch IT Solutions programming certificate">
+                <img src="Cryptch-Programming-Certificate.jpg" alt="Cryptch IT Solutions certificate for Introduction to Programming Using C, C++ and Python, awarded to Priyanshu Nagiya on November 25, 2023" loading="lazy" />
+                <span class="certificate-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="certificate-copy">
+                <p class="project-kicker">Cryptch IT Solutions · Nov 2023</p>
+                <h3>Introduction to Programming Using C, C++ & Python</h3>
+                <a class="certificate-link" href="Cryptch-Programming-Certificate.jpg" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="certificate-card reveal">
+              <a class="certificate-preview certificate-pdf-preview" href="Forage-Solutions-Architecture-Certificate.pdf" target="_blank" rel="noreferrer" aria-label="Open Forage Solutions Architecture Job Simulation certificate">
+                <span class="certificate-provider">FORAGE</span>
+                <span class="certificate-document-icon" aria-hidden="true">SA</span>
+                <span class="certificate-preview-title">Solutions Architecture<br />Job Simulation</span>
+                <span class="certificate-preview-meta">Certificate of Completion · Aug 2025</span>
+                <span class="certificate-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="certificate-copy">
+                <p class="project-kicker">Forage · Aug 2025</p>
+                <h3>Solutions Architecture Job Simulation</h3>
+                <p class="certificate-description">Practical work designing a simple, scalable hosting architecture.</p>
+                <a class="certificate-link" href="Forage-Solutions-Architecture-Certificate.pdf" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="certificate-card reveal">
+              <a class="certificate-preview certificate-pdf-preview certificate-deloitte" href="Deloitte-Data-Analytics-Certificate.pdf" target="_blank" rel="noreferrer" aria-label="Open Deloitte Data Analytics Job Simulation certificate">
+                <span class="certificate-provider">DELOITTE × FORAGE</span>
+                <span class="certificate-document-icon" aria-hidden="true">DA</span>
+                <span class="certificate-preview-title">Data Analytics<br />Job Simulation</span>
+                <span class="certificate-preview-meta">Certificate of Completion · Mar 2026</span>
+                <span class="certificate-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="certificate-copy">
+                <p class="project-kicker">Deloitte · Mar 2026</p>
+                <h3>Data Analytics Job Simulation</h3>
+                <p class="certificate-description">Practical tasks in data analysis and forensic technology.</p>
+                <a class="certificate-link" href="Deloitte-Data-Analytics-Certificate.pdf" target="_blank" rel="noreferrer">View certificate <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="section section-alt resume-section">
+        <div class="container">
+          <div class="section-heading resume-heading">
+            <div>
+              <p class="eyebrow">Experience & education <span>06 / 07</span></p>
+              <h2>Learning, building,<br /><span class="heading-muted">and putting it to work.</span></h2>
+            </div>
+            <a class="btn btn-primary resume-download" href="Priyanshu-Nagiya-Resume.pdf" download>
+              Download full résumé <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <div class="resume-grid">
+            <div class="resume-column">
+              <h3 class="resume-column-title"><span>01</span> Experience</h3>
+              <article class="resume-entry reveal">
+                <span class="resume-date">JAN 2025 — MAR 2025</span>
+                <h4>Machine Learning Intern</h4>
+                <p class="resume-org">Aifico <span>·</span> Gwalior, Madhya Pradesh</p>
+                <ul>
+                  <li>Designed ML-based financial analysis pipelines, contributing to a reported 15% improvement in system reliability.</li>
+                  <li>Worked on data preprocessing, feature selection, model validation, and deployment with development teams.</li>
+                </ul>
+              </article>
+              <article class="resume-entry reveal">
+                <span class="resume-date">MAR 2025 — APR 2025</span>
+                <h4>Python Developer Intern</h4>
+                <p class="resume-org">CodeC <span>·</span> Remote</p>
+                <ul>
+                  <li>Built reusable Python modules for automation and data processing.</li>
+                  <li>Improved application workflows, maintainability, and performance.</li>
+                </ul>
+              </article>
+            </div>
+            <div class="resume-column">
+              <h3 class="resume-column-title"><span>02</span> Education</h3>
+              <article class="resume-entry reveal">
+                <span class="resume-date">SEP 2023 — OCT 2027</span>
+                <h4>Bachelor of Technology</h4>
+                <p class="resume-org">Madhav Institute of Technology & Science <span>·</span> Gwalior</p>
+                <p class="resume-description">Undergraduate studies in technology and engineering.</p>
+              </article>
+              <article class="resume-entry reveal">
+                <span class="resume-date">APR 2021 — MAR 2023</span>
+                <h4>Higher Secondary Certificate</h4>
+                <p class="resume-org">Central Academy Sr. Secondary School <span>·</span> Jabalpur</p>
+                <p class="resume-description">Class XII</p>
+              </article>
+              <h3 class="resume-column-title certification-title"><span>03</span> Certifications</h3>
+              <div class="certification-list">
+                <span>Machine Learning</span><span>Data Analytics</span>
+                <span>Generative AI</span><span>Web Development · JPMorgan Chase Virtual Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-projects">
+            <h3 class="resume-column-title"><span>04</span> More projects from my résumé</h3>
+            <div class="resume-project-grid">
+              <article class="resume-project-card reveal">
+                <span class="resume-date">COMPUTER VISION</span>
+                <h4>Hand Recognition System</h4>
+                <p>Real-time hand gesture classification with CNNs, TensorFlow, and OpenCV; résumé reports 90%+ accuracy.</p>
+              </article>
+              <article class="resume-project-card reveal">
+                <span class="resume-date">AI / AUTOMATION</span>
+                <h4>Jarvis Virtual Assistant</h4>
+                <p>Python assistant combining speech recognition, NLP, APIs, and task automation.</p>
+              </article>
+              <article class="resume-project-card reveal">
+                <span class="resume-date">DATA / DASHBOARDS</span>
+                <h4>Data Analytics Dashboard</h4>
+                <p>Interactive business-metrics dashboard with Python, Pandas, REST APIs, and SQL.</p>
+              </article>
+            </div>
+          </div>
+
+          <details class="resume-preview">
+            <summary>Preview résumé on this page <span aria-hidden="true">＋</span></summary>
+            <iframe
+              src="Priyanshu-Nagiya-Resume.pdf#view=FitH"
+              title="Priyanshu Nagiya résumé PDF"
+              loading="lazy"
+            ></iframe>
+          </details>
         </div>
       </section>
     </main>
@@ -205,18 +492,23 @@
     <footer id="contact" class="site-footer">
       <div class="container footer-content">
         <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let’s build something meaningful.</h2>
+          <p class="eyebrow">Your idea, my inbox <span>07 / 07</span></p>
+          <h2>Have something<br /><span class="heading-muted">interesting in mind?</span></h2>
+          <a class="contact-email" href="mailto:nagiapriyanshu493@gmail.com">nagiapriyanshu493@gmail.com <span aria-hidden="true">↗</span></a>
         </div>
 
         <div class="contact-links">
-          <a href="mailto:nagiapriyanshu493@gmail.com">nagiapriyanshu493@gmail.com</a>
-          <a href="https://github.com/priyanshu-king" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/priyanshu-nagiya-928275273/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://priyanshubh.vercel.app/" target="_blank" rel="noreferrer">Portfolio</a>
+          <span class="contact-label">FIND ME AROUND THE WEB</span>
+          <a href="https://github.com/priyanshu-king" target="_blank" rel="noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/priyanshu-nagiya-928275273/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+          <a href="https://www.instagram.com/pythonhub34__1/" target="_blank" rel="noreferrer"><span>Instagram</span><span aria-hidden="true">↗</span></a>
+          <a href="https://youtube.com/@thegold146?si=MJkuO6o4BL13yHW8" target="_blank" rel="noreferrer"><span>YouTube</span><span aria-hidden="true">↗</span></a>
+          <a href="https://x.com/Thekingprince5" target="_blank" rel="noreferrer"><span>X</span><span aria-hidden="true">↗</span></a>
+          <a href="mailto:nagiapriyanshu493@gmail.com"><span>Email me</span><span aria-hidden="true">↗</span></a>
+          <a href="tel:+919243174393"><span>Call me</span><span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <p class="copyright">© <span id="year"></span> Priyanshu Nagiya. All rights reserved.</p>
+      <div class="container footer-bottom"><a class="footer-brand" href="#top"><img src="logo.svg" alt="" width="30" height="30" /> PN.</a><p class="copyright">© <span id="year"></span> Priyanshu Nagiya. Made with curiosity.</p><a class="back-to-top" href="#top">Back to top ↑</a></div>
     </footer>
 
     <script src="script.js"></script>
